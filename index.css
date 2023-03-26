@@ -1,0 +1,137 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.congrats-card-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.congrats-card {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.Profile {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.watch-img {
+  width: 100px;
+  height: 100px;
+}
+
+.institute-name {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .heading {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .congrats-card {
+    background-color: #cffafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .Profile {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 28px;
+  }
+
+  .watch-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .institute-name {
+    color: #1e293b;
+    font-family: "Roboto";
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .congrats-card-bg {
+    height: 130vh;
+  }
+
+  .heading {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .congrats-card {
+    background-color: #cffafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 80vh;
+  }
+
+  .Profile {
+    width: 130px;
+    height: 130px;
+  }
+
+  .name {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 30px;
+  }
+
+  .watch-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .institute-name {
+    color: #1e293b;
+    font-family: "Roboto";
+    font-size: 25px;
+  }
+}
